@@ -1,0 +1,218 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>Home Page</title>
+        <link href="css/home.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    </head>
+    <body>
+        <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <nav class="navbar navbar-fixed-top navbar-inverse">
+            <div class="container">
+                <div class="navbar-header">
+                    <a href="#" class="navbar-brand">Awsome website</a>
+                    <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#here">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="here">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#">home Page</a></li>
+                        <li class="active"><a href="#">about Page</a></li>
+                        <li><a href="#">contact Page</a></li>
+                    </ul>
+                    <button class="btn btn-default navbar-btn navbar-right">Inbox<span class="label label-danger">NEW</span></button>
+                    <button class="btn btn-info navbar-btn navbar-right">notifications <span class="badge">20</span></span></button>
+                   <!-- <button class="btn btn-default navbar-btn navbar-right">Register</button>
+                    <button class="btn btn-info navbar-btn navbar-right">Log in</button> -->
+                </div>
+            </div>
+        </nav>
+        <div class="jumbotron">
+            <div class="container">
+                <h1>Bootstrap 3</h1>
+            </div>
+        </div>
+        <div class="container">
+            <div class="container">
+            <div class="modal" id="mymodal">
+                <div class="modal-dialog">
+                    <div class="model-content">
+                        <div class="model-header">
+                            <button class="close" type="button" data-dismiss="modal">X</button>
+                            <h2 class="model-title">How to Be Programmer</h2>
+                        </div>
+                        <div class="model-body">
+                            <p>practice son, practice</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="carousel slide" id="myslider" data-ride="carousel">
+                <div class="carousel-inner">
+                    <ol class="carousel-indicators">
+                        <li data-target="#myslider" data-slide-to="0"></li>
+                        <li data-target="#myslider" data-slide-to="1"></li>
+                        <li data-target="#myslider" data-slide-to="2"></li>
+                    </ol>
+                    <div class="item active">
+                        <img src="img/img1.jpg">
+                    </div>
+                    <div class="item">
+                        <img src="img/img2.jpg">
+                    </div>
+                    <div class="item">
+                        <img src="img/img3.jpg">
+                    </div>
+                </div>
+                <a href="#myslider" class="left carousel-control" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left">
+                    </span>
+                </a>
+                <a href="#myslider" class="right carousel-control" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right">
+                    </span>
+                </a>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-md-6 col-lg-3">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h1 class="panel-title">
+                                Header 1
+                            </h1>
+                        </div>
+                        <div class="panel-body">
+                            <p>
+                                Paragraphs are the building blocks of papers. Many students define paragraphs in terms of length: a paragraph is a group
+                                of at least five sentences, a paragraph is half a page long, etc. In reality, though, the unity and coherence
+                                of ideas among sentences is what constitutes a paragraph. A paragraph is defined as “a group of sentences
+                                or a single sentence that forms a unit” (Lunsford and Connors 116). Length and appearance do not determine
+                                whether a section in a paper is a paragraph. For instance, in some styles of writing, particularly journalistic
+                                because it controls what happens in the rest of the paragraph.
+                                <a href="#" data-toggle="modal" data-target="#mymodal" >click me</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-3">
+                    <div class="panel panel-default">
+        
+                        <div class="panel-heading">
+                            <h1 class="panel-title">
+                                Header 2
+                            </h1>
+                        </div>
+                        <div class="panel-body">
+                            <p data-toggle="tooltip"
+                               data-placement="top"
+                               title="Read more">
+                                Paragraphs are the building blocks of papers. Many students define paragraphs in terms of length: a paragraph is a group
+                                of at least five sentences, a paragraph is half a page long, etc. In reality, though, the unity and coherence
+                                of ideas among sentences is what constitutes a paragraph. A paragraph is defined as “a group of sentences
+                                or a single sentence that forms a unit” (Lunsford and Connors 116). Length and appearance do not determine
+                                whether a section in a paper is a paragraph. For instance, in some styles of writing, particularly journalistic
+                                styles, a paragraph can be just one sentence long. Ultimately, a paragraph is a sentence or group of
+                                sentences that support one main idea. In this handout, we will refer to this as the “controlling idea,”
+                                because it controls what happens in the rest of the paragraph.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-3">
+                    <div class="panel panel-default">
+        
+                        <div class="panel-heading">
+                            <h1 class="panel-title">
+                                Header 2
+                            </h1>
+                        </div>
+                        <div class="panel-body">
+                            <p>
+                                Paragraphs are the building blocks of papers. Many students define paragraphs in terms of length: a paragraph is a group
+                                of at least five sentences, a paragraph is half a page long, etc. In reality, though, the unity and coherence
+                                of ideas among sentences is what constitutes a paragraph. A paragraph is defined as “a group of sentences
+                                or a single sentence that forms a unit” (Lunsford and Connors 116). Length and appearance do not determine
+                                whether a section in a paper is a paragraph. For instance, in some styles of writing, particularly journalistic
+                                styles, a paragraph can be just one sentence long. Ultimately, a paragraph is a sentence or group of
+                                sentences that support one main idea. In this handout, we will refer to this as the “controlling idea,”
+                                because it controls what happens in the rest of the paragraph.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-3">
+                    <div class="panel panel-default">
+        
+                        <div class="panel-heading">
+                            <h1 class="panel-title">
+                                Header 2
+                            </h1>
+                        </div>
+                        <div class="panel-body">
+                            <p>
+                                Paragraphs are the building blocks of papers. Many students define paragraphs in terms of length: a paragraph is a group
+                                of at least five sentences, a paragraph is half a page long, etc. In reality, though, the unity and coherence
+                                of ideas among sentences is what constitutes a paragraph. A paragraph is defined as “a group of sentences
+                                or a single sentence that forms a unit” (Lunsford and Connors 116). Length and appearance do not determine
+                                whether a section in a paper is a paragraph. For instance, in some styles of writing, particularly journalistic
+                                styles, a paragraph can be just one sentence long. Ultimately, a paragraph is a sentence or group of
+                                sentences that support one main idea. In this handout, we will refer to this as the “controlling idea,”
+                                because it controls what happens in the rest of the paragraph.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <form>
+                <div class="form-group">
+                    <label for="name" class="sr-only">Name</label>
+                    <input class="form-control" type="text" placeholder="name">
+                </div>
+                <div class="form-group">
+                    <input class="form-control" type="password" placeholder="password">
+                </div>
+                <div class="form-group">
+                    <label class="checkbox-inline">
+                        <input type="checkbox"> food
+                    </label>
+                    <label class="checkbox-inline">
+                        <input type="checkbox"> drink
+                    </label>
+                </div>
+                <div class="form-group">
+                        <label class="radio-inline">
+                            <input type="radio" name="gender"> male
+                        </label>
+                        <label class="radio-inline">
+                            <input type="radio" name="gender"> female
+                        </label>
+                    </div>
+            </form>
+        </div>
+
+        <script>
+            $(".nav li").on("click",function (){
+                $(".nav li").removeClass("active");
+                $(this).addClass("active");
+
+            })
+        </script>
+
+    </body>
+
+
+
+
+
+</html>
